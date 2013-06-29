@@ -1,4 +1,4 @@
 vimfiles
 ========
 
-Prodis Vim files
+Prodis' Vim files
