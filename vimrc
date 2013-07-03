@@ -29,9 +29,6 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
-" Size
-set lines=999 columns=999
- 
 " Font
 set guifont=Monaco:h10
 
@@ -85,4 +82,36 @@ nmap <D-[> <<
 nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
+
+" Remove trailing spaces
+function TrimWhiteSpace()
+  %s/\s*$//
+  ''
+:endfunction
+
+set list listchars=tab:»·,trail:·
+
+map <leader>= :call TrimWhiteSpace()<CR>
+map! <leader>= :call TrimWhiteSpace()<CR>
+
+autocmd BufWritePre * :%s/\s\+$//e
+
+" Colors
+if has("gui_running")
+  set lines=999
+  set columns=999
+
+  " Highlight the line and the column of the current position of cursor
+  set cursorline
+  "set cursorcolumn
+  hi CursorLine guibg=#222222
+  "hi CursorColumn guibg=#222222
+endif
+
+"if has("gui_running") || $TERM == "xterm-256color"
+"  set t_Co=256
+"  colorscheme ir_black
+"else
+"  let g:CSApprox_loaded = 0
+"endif
 
