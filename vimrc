@@ -27,6 +27,7 @@ filetype plugin indent on    " required
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
+color railscasts
 
 syntax on " Turn on syntax highlighting
 set encoding=utf-8
