@@ -23,6 +23,14 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'fatih/vim-go'
 
+" TODO
+" supertab
+" vim-commentary
+" vim-multiple-cursor
+" vim-powerline
+" smartpairs
+" vim-mkdir
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
