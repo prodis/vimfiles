@@ -12,7 +12,16 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+
 Plugin 'kien/ctrlp.vim'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-rails'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -27,7 +36,6 @@ filetype plugin indent on    " required
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
-color railscasts
 
 syntax on " Turn on syntax highlighting
 set encoding=utf-8
@@ -117,21 +125,23 @@ function TrimWhiteSpace()
   ''
 :endfunction
 
-set list listchars=tab:»·,trail:·
-
 map <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
+
+set list listchars=tab:»»,trail:·
 
 " Colors
 if has("gui_running")
   set columns=999
   set lines=999
 
+  colorscheme railscasts
+
   " Highlight the line and the column of the current position of cursor
   set cursorline
   set cursorcolumn
-  hi CursorLine guibg=#222222
-  hi CursorColumn guibg=#222222
+  hi CursorLine guibg=#333333
+  hi CursorColumn guibg=#333333
 endif
