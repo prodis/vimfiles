@@ -1,8 +1,12 @@
 "----------------------------------------
+"
 " Prodis' Vim files
+"
 "----------------------------------------
 
+"----------------------------------------
 " Vundle
+"----------------------------------------
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -14,7 +18,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'kien/ctrlp.vim'
-Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-rails'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -25,7 +29,6 @@ Plugin 'fatih/vim-go'
 
 " TODO
 " supertab
-" vim-commentary
 " vim-multiple-cursor
 " vim-powerline
 " smartpairs
@@ -43,6 +46,9 @@ filetype plugin indent on    " required
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+
+" vim-commentary
+nmap X gcl " comment a line in normal mode
 
 
 syntax on " Turn on syntax highlighting
