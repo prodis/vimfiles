@@ -26,13 +26,13 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'fatih/vim-go'
+Plugin 'pbrisbin/vim-mkdir'
 
 " TODO
 " supertab
 " vim-multiple-cursor
 " vim-powerline
 " smartpairs
-" vim-mkdir
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
