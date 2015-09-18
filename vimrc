@@ -27,11 +27,14 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'fatih/vim-go'
 Plugin 'pbrisbin/vim-mkdir'
+Plugin 'ervandew/supertab'
 
 " TODO
-" supertab
-" vim-multiple-cursor
+" Plugin 'gorkunov/smartpairs.vim'
+" Plugin 'terryma/vim-multiple-cursors'
+
 " vim-powerline
+" vim-multiple-cursor
 " smartpairs
 
 " All of your Plugins must be added before the following line
