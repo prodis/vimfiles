@@ -28,14 +28,11 @@ Plugin 'honza/vim-snippets'
 Plugin 'fatih/vim-go'
 Plugin 'pbrisbin/vim-mkdir'
 Plugin 'ervandew/supertab'
+Plugin 'bling/vim-airline'
 
 " TODO
 " Plugin 'gorkunov/smartpairs.vim'
 " Plugin 'terryma/vim-multiple-cursors'
-
-" vim-powerline
-" vim-multiple-cursor
-" smartpairs
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,6 +49,9 @@ filetype plugin indent on    " required
 
 " vim-commentary
 nmap X gcl " comment a line in normal mode
+
+" vim-airline
+set laststatus=2 " always show status line
 
 
 syntax on " Turn on syntax highlighting
