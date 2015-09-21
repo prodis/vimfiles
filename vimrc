@@ -146,6 +146,12 @@ noremap Q gq
 " Make Y consistent with C and D
 nnoremap Y y$
 
+" Replace all double quotes by single quotes
+"nnoremap tt :%s/"/'/g<CR>
+
+" Replace double quotes by single quotes in visual selection
+"vnoremap tt :s/"/'/g<CR>
+
 " Tab navigation
 nmap <Tab> gt
 nmap <S-Tab> gT
