@@ -133,10 +133,6 @@ set timeoutlen=250 " time to wait after ESC (default causes an annoying delay)
 " Key mapping
 "----------------------------------------
 
-" Leader test
-nnoremap <Leader>t Vgg
-
-
 " Space to turn off highlighting and clear any message already displayed.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
