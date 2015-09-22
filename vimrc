@@ -147,10 +147,10 @@ noremap Q gq
 nnoremap Y y$
 
 " Replace all double quotes by single quotes
-"nnoremap tt :%s/"/'/g<CR>
+nnoremap tt :%s/"/'/g<CR>:nohlsearch<Bar>:echo<CR>''
 
 " Replace double quotes by single quotes in visual selection
-"vnoremap tt :s/"/'/g<CR>
+vnoremap tt :s/"/'/g<CR>:nohlsearch<Bar>:echo<CR>
 
 " Tab navigation
 nmap <Tab> gt
