@@ -38,6 +38,7 @@ Plugin 'fatih/vim-go'
 Plugin 'pbrisbin/vim-mkdir'
 Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
 
 " TODO
 " Plugin 'gorkunov/smartpairs.vim'
@@ -61,6 +62,9 @@ nmap X gcl " comment a line in normal mode
 
 " vim-airline
 set laststatus=2 " always show status line
+
+" nerdtree
+nmap <F4> :NERDTreeToggle<CR>
 
 
 "----------------------------------------
