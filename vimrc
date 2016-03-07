@@ -59,6 +59,7 @@ filetype plugin indent on " required
 
 " vim-commentary
 nmap X gcl " comment a line in normal mode
+vmap X gc  " comment selected lines in visual mode
 
 " vim-airline
 set laststatus=2 " always show status line
