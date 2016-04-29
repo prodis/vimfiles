@@ -35,11 +35,13 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
-Plugin 'fatih/vim-go'
 Plugin 'pbrisbin/vim-mkdir'
 Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
+
+Plugin 'fatih/vim-go'
+Plugin 'elixir-lang/vim-elixir'
 
 " TODO
 " Plugin 'gorkunov/smartpairs.vim'
