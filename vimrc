@@ -214,9 +214,19 @@ if has("gui_running")
   " Highlight the line and the column of the current position of cursor
   set cursorline
   set cursorcolumn
-  hi CursorLine guibg=#333333
+  hi CursorLine   guibg=#333333
   hi CursorColumn guibg=#333333
 endif
 
-" Highlight search matches
-hi Search guifg=yellow guibg=purple  ctermfg=5 ctermbg=214
+" Highlights
+hi Search    guifg=yellow guibg=purple ctermfg=5 ctermbg=214
+hi Number    guifg=#80D7FF ctermfg=107
+hi Define    guifg=#E68A00 ctermfg=173
+hi Include   guifg=#E68A00 ctermfg=173 gui=NONE cterm=NONE
+hi PreCondit guifg=#E68A00 ctermfg=173 gui=NONE cterm=NONE
+hi Keyword   guifg=#E68A00 ctermfg=173 cterm=NONE
+hi Statement guifg=#E68A00 ctermfg=173 gui=NONE cterm=NONE
+
+" Links
+hi link rubyStringDelimiter   String
+hi link elixirStringDelimiter String
