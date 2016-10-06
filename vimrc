@@ -42,6 +42,7 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'fatih/vim-go'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'kchmck/vim-coffee-script'
 
 " TODO
 " Plugin 'gorkunov/smartpairs.vim'
