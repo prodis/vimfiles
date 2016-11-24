@@ -45,6 +45,7 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'kchmck/vim-coffee-script'
 
 " TODO
+" Plugin 'danro/rename.vim'
 " Plugin 'gorkunov/smartpairs.vim'
 " Plugin 'terryma/vim-multiple-cursors'
 
