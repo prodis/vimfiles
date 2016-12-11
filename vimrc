@@ -46,6 +46,7 @@ Plugin 'kchmck/vim-coffee-script'
 
 " TODO
 " Plugin 'danro/rename.vim'
+" Plugin 'godlygeek/tabular' "http://vimcasts.org/episodes/aligning-text-with-tabular-vim
 " Plugin 'gorkunov/smartpairs.vim'
 " Plugin 'terryma/vim-multiple-cursors'
 
