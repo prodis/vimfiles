@@ -39,14 +39,14 @@ Plugin 'pbrisbin/vim-mkdir'
 Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
+Plugin 'danro/rename.vim'
+Plugin 'godlygeek/tabular' "http://vimcasts.org/episodes/aligning-text-with-tabular-vim
 
 Plugin 'fatih/vim-go'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'kchmck/vim-coffee-script'
 
 " TODO
-" Plugin 'danro/rename.vim'
-" Plugin 'godlygeek/tabular' "http://vimcasts.org/episodes/aligning-text-with-tabular-vim
 " Plugin 'gorkunov/smartpairs.vim'
 " Plugin 'terryma/vim-multiple-cursors'
 
