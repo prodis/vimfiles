@@ -176,6 +176,9 @@ map <C-l> <C-w>l
 " Ruby shortcuts
 ab bp require 'pry'; binding.pry
 
+" Elixir pipe operator |>
+imap <C-\> \|><Space>
+
 
 "----------------------------------------
 " Functions
