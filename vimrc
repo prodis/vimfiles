@@ -173,8 +173,11 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-" Ruby shortcuts
+" Ruby pry
 ab bp require 'pry'; binding.pry
+
+" TODO comment
+imap todo # TODO:<Space>
 
 " Elixir pipe operator |>
 imap <C-\> \|><Space>
