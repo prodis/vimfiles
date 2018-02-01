@@ -175,7 +175,7 @@ map <C-l> <C-w>l
 
 " Ruby shortcuts
 ab bp require 'pry'; binding.pry
-ab fsl # frozen_string_literal: true
+ab fsl # frozen_string_literal: true<esc>o
 ab pz puts '*'*42
 
 " Elixir pipe operator |>
