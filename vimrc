@@ -214,8 +214,8 @@ nnoremap <leader>h :call ConvertRubyHashSyntax()<CR>
 " Colors
 "----------------------------------------
 if has("gui_running")
-  set columns=999
   set lines=999
+  set columns=999
 
   colorscheme railscasts
 
@@ -224,6 +224,11 @@ if has("gui_running")
   set cursorcolumn
   hi CursorLine   guibg=#333333
   hi CursorColumn guibg=#333333
+
+  " Highlight a ruler column
+  set colorcolumn=98
+  " let &colorcolumn=join(range(99,999),",")
+  hi ColorColumn  guibg=#000000
 endif
 
 " Highlights
