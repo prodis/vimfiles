@@ -45,6 +45,7 @@ Plugin 'godlygeek/tabular' "http://vimcasts.org/episodes/aligning-text-with-tabu
 Plugin 'fatih/vim-go'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'hell/vim-prettier'
 
 " TODO
 " Plugin 'gorkunov/smartpairs.vim'
