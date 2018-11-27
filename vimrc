@@ -26,26 +26,31 @@ call vundle#begin()
 " Let Vundle manage Vundle (required)
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-endwise'
-Plugin 'thoughtbot/vim-rspec'
 Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-Plugin 'pbrisbin/vim-mkdir'
-Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
-Plugin 'scrooloose/nerdtree'
 Plugin 'danro/rename.vim'
+Plugin 'ervandew/supertab'
+Plugin 'garbas/vim-snipmate'
 Plugin 'godlygeek/tabular' "http://vimcasts.org/episodes/aligning-text-with-tabular-vim
+Plugin 'honza/vim-snippets'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'pbrisbin/vim-mkdir'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tomtom/tlib_vim'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-endwise'
+
+" Ruby
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-rails'
+
+" Elixir
+Plugin 'elixir-editors/vim-elixir'
 Plugin 'mhinz/vim-mix-format'
 
+" Other languages
 Plugin 'fatih/vim-go'
-Plugin 'elixir-lang/vim-elixir'
 Plugin 'kchmck/vim-coffee-script'
 
 " TODO
