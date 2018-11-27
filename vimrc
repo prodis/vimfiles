@@ -42,6 +42,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'danro/rename.vim'
 Plugin 'godlygeek/tabular' "http://vimcasts.org/episodes/aligning-text-with-tabular-vim
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'mhinz/vim-mix-format'
 
 Plugin 'fatih/vim-go'
 Plugin 'elixir-lang/vim-elixir'
