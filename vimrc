@@ -200,6 +200,9 @@ imap <C-\> \|><Space>
 " Remove trailing spaces on write
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Automatically format Elixir on saving.
+let g:mix_format_on_save = 1
+
 " Convert Ruby 1.8 to 1.9 Hash Syntax
 " http://robots.thoughtbot.com/convert-ruby-1-8-to-1-9-hash-syntax
 if !exists("*ConvertRubyHashSyntax")
