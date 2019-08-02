@@ -131,9 +131,10 @@ set splitright
 set splitbelow
 
 " General
+"set autowrite " writes on make/shell commands
 "set cf " enable error files & error jumping
 "set clipboard+=unnamed " yanks go on clipboard instead
-"set autowrite " writes on make/shell commands
+set belloff=all " disable all bell sounds
 set history=256 " number of things to remember in history.
 set ruler " ruler on
 set timeoutlen=250 " time to wait after ESC (default causes an annoying delay)
