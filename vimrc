@@ -47,7 +47,7 @@ Plugin 'tpope/vim-rails'
 
 " Elixir
 Plugin 'elixir-editors/vim-elixir'
-Plugin 'mhinz/vim-mix-format'
+Plugin 'prodis/vim-mix-format'
 
 " Other languages
 Plugin 'fatih/vim-go'
