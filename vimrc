@@ -237,7 +237,7 @@ if has("gui_running")
   hi CursorColumn guibg=#333333
 
   " Highlight a ruler column
-  let &colorcolumn="80,98"
+  let &colorcolumn="80,98,130"
   " let &colorcolumn=join(range(99,999),",")
   hi ColorColumn  guibg=#000000
 endif
